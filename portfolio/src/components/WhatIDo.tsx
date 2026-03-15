@@ -7,27 +7,27 @@ export default function WhatIDo() {
   const services = [
     {
       id: 1,
-      title: "AI Engineering",
-      description: "Building intelligent agents, RAG pipelines, and multi-agent systems using cutting-edge LLMs.",
-      icon: <BrainCircuit className="w-8 h-8 text-blue-500" />
+      title: "MERN Stack Development",
+      description: "Building end-to-end full-stack applications using MongoDB, Express.js, React.js, and Node.js.",
+      icon: <Code2 className="w-8 h-8 text-blue-500" />
     },
     {
       id: 2,
-      title: "Full Stack Development",
-      description: "Developing robust, scalable web applications from database architecture to responsive frontends.",
-      icon: <Code2 className="w-8 h-8 text-cyan-400" />
+      title: "Machine Learning Integration",
+      description: "Developing data-driven solutions and integrating ML models, like LLM fine-tuning and predictive analytics.",
+      icon: <BrainCircuit className="w-8 h-8 text-purple-400" />
     },
     {
       id: 3,
-      title: "Frontend Architecture",
-      description: "Crafting extremely performant, modern React and Next.js applications tailored for speed and SEO.",
-      icon: <LayoutTemplate className="w-8 h-8 text-blue-400" />
+      title: "Frontend Engineering",
+      description: "Crafting highly performant, responsive, and intuitive web interfaces tailored for an optimal user experience.",
+      icon: <LayoutTemplate className="w-8 h-8 text-cyan-400" />
     },
     {
       id: 4,
-      title: "UI/UX Engineering",
-      description: "Bridging the gap between design and engineering with pixel-perfect, interactive user interfaces.",
-      icon: <Sparkles className="w-8 h-8 text-cyan-500" />
+      title: "Backend APIs & Databases",
+      description: "Designing REST APIs with JWT auth and managing robust integrations with SQL and NoSQL databases.",
+      icon: <Sparkles className="w-8 h-8 text-blue-400" />
     }
   ];
 

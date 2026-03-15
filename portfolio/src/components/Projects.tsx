@@ -3,10 +3,8 @@ import { ArrowUpRight } from "lucide-react";
 
 export default function Projects() {
   const projects = [
-    { id: 1, title: "Ethereal", category: "WebGL / Three.js", image: "/projects/ethereal.png" },
-    { id: 2, title: "Lumina", category: "Brand Identity", image: "/projects/lumina.png" },
-    { id: 3, title: "Onyx", category: "E-Commerce", image: "/projects/onyx.png" },
-    { id: 4, title: "Synergy", category: "Web Application", image: "/projects/synergy.png" }
+    { id: 1, title: "Heart Disease Prediction", category: "Python / Machine Learning", image: "/projects/ethereal.png" },
+    { id: 2, title: "E-Commerce Web App", category: "React.js / Node.js / SQLite", image: "/projects/onyx.png" }
   ];
 
   return (

@@ -23,11 +23,20 @@ export default function ScrollyCanvas() {
     let loadedCount = 0;
     const loadedImages: HTMLImageElement[] = [];
 
+    // The sequence starts from 0 to 119
     for (let i = 0; i < FRAME_COUNT; i++) {
         const img = new Image();
         const frameIdx = String(i).padStart(3, "0");
-        img.src = `/sequence/frame_${frameIdx}_delay-0.066s.png`;
+        img.src = `/sequence/frame_${frameIdx}_delay-0.066s.webp`;
         img.onload = () => {
+            loadedCount++;
+            if (loadedCount === FRAME_COUNT) {
+                setImages(loadedImages);
+                setLoaded(true);
+            }
+        };
+        img.onerror = () => {
+            // fallback loaded count to prevent infinite loading state if frames are less than FRAME_COUNT
             loadedCount++;
             if (loadedCount === FRAME_COUNT) {
                 setImages(loadedImages);

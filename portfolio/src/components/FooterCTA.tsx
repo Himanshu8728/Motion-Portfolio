@@ -32,12 +32,12 @@ export default function FooterCTA() {
         </h2>
         
         <p className="text-xl text-gray-400 font-light mb-12 max-w-lg leading-relaxed">
-          Open to AI engineering roles, freelance projects, and collaborations.
+          Open to full-stack engineering roles, freelance projects, and collaborations.
         </p>
 
         <div className="flex flex-col sm:flex-row gap-6 w-full sm:w-auto mb-16">
           <button 
-            onClick={() => window.location.href = "mailto:ahammedanasnihal@gmail.com"} // Replacing generic generic with a standard placeholder since I don't have the exact email address. Will add the user's name variant.
+            onClick={() => window.location.href = "mailto:himanshumourya2k3@gmail.com"} 
             className="group relative px-8 py-4 bg-transparent border border-[#3B82F6] text-white rounded-full font-medium tracking-wide overflow-hidden hover:shadow-[0_0_40px_rgba(59,130,246,0.3)] transition-shadow duration-300"
           >
             <div className="absolute inset-0 bg-[#3B82F6] w-0 group-hover:w-full transition-all duration-300 ease-out" />
@@ -49,7 +49,7 @@ export default function FooterCTA() {
               // Trigger Resume Download logic
               const link = document.createElement("a");
               link.href = "/resume.pdf";
-              link.download = "Anas_Resume.pdf";
+              link.download = "Himanshu_Resume.pdf";
               document.body.appendChild(link);
               link.click();
               document.body.removeChild(link);
@@ -62,21 +62,18 @@ export default function FooterCTA() {
 
         {/* Social Icons */}
         <div className="flex items-center gap-8">
-          <a href="https://github.com/ahmmedanasnihal" target="_blank" rel="noreferrer" className="text-gray-500 hover:text-white hover:-translate-y-1 transition-all duration-300">
+          <a href="https://github.com/himanshu8728" target="_blank" rel="noreferrer" className="text-gray-500 hover:text-white hover:-translate-y-1 transition-all duration-300">
             <SiGithub className="w-6 h-6" />
           </a>
-          <a href="https://linkedin.com/in/ahmmedanasnihal" target="_blank" rel="noreferrer" className="text-gray-500 hover:text-[#0A66C2] hover:-translate-y-1 transition-all duration-300">
+          <a href="https://linkedin.com/in/himanshu8728" target="_blank" rel="noreferrer" className="text-gray-500 hover:text-[#0A66C2] hover:-translate-y-1 transition-all duration-300">
             <FaLinkedin className="w-6 h-6" />
-          </a>
-          <a href="https://instagram.com/ahmmedanasnihal" target="_blank" rel="noreferrer" className="text-gray-500 hover:text-[#E4405F] hover:-translate-y-1 transition-all duration-300">
-            <SiInstagram className="w-6 h-6" />
           </a>
         </div>
       </motion.div>
       
       {/* Footer copyright */}
       <div className="absolute bottom-8 text-gray-600 text-sm font-light">
-        © {new Date().getFullYear()} Ahammed Anas Nihal. All rights reserved.
+        © {new Date().getFullYear()} Himanshu Mourya. All rights reserved.
       </div>
     </section>
   );

@@ -23,13 +23,13 @@ export default function Experience() {
           {/* Vertical Line */}
           <div className="absolute left-[27px] top-4 bottom-0 w-[2px] bg-white/5" />
 
-          {/* Timeline Item */}
+          {/* Timeline Item 1 */}
           <motion.div 
               initial={{ opacity: 0, x: -30 }}
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true, margin: "-100px" }}
               transition={{ duration: 0.6, delay: 0.2 }}
-              className="relative pl-20 sm:pl-32"
+              className="relative pl-20 sm:pl-32 mb-16"
           >
             {/* Dot Pattern */}
             <div className="absolute left-[13px] top-6 w-[30px] h-[30px] bg-[#121212] rounded-full flex items-center justify-center">
@@ -46,34 +46,73 @@ export default function Experience() {
                 <div>
                   <h4 className="text-2xl font-bold tracking-tight flex items-center gap-3">
                     <Briefcase className="w-6 h-6 text-[#3B82F6]" />
-                    Software Engineer
+                    Developer Trainee
                   </h4>
-                  <p className="text-[#06B6D4] mt-2 font-medium">Kinematiq Studio</p>
+                  <p className="text-[#06B6D4] mt-2 font-medium">Levithan Technologies</p>
                 </div>
                 <div className="text-left md:text-right">
                   <span className="inline-block px-4 py-1.5 rounded-full border border-white/10 bg-white/5 text-sm text-gray-300 font-mono">
-                    Mar 2025 — Present
+                    Jan 2026 — Present
                   </span>
-                  <p className="text-gray-500 text-sm mt-2">Remote</p>
                 </div>
               </div>
 
               <ul className="space-y-4 text-gray-400 font-light leading-relaxed list-none">
                 <li className="relative pl-6">
                   <span className="absolute left-0 top-2.5 w-2 h-[2px] bg-[#3B82F6]/50 rounded-full" />
-                  Building and maintaining full-stack web applications using React, Next.js, and Node.js.
+                  Fine-tuned an Ollama-based LLM model on a cybersecurity dataset for improved domain-specific responses.
                 </li>
                 <li className="relative pl-6">
                   <span className="absolute left-0 top-2.5 w-2 h-[2px] bg-[#3B82F6]/50 rounded-full" />
-                  Integrating AI features and automation pipelines into client products.
+                  Developing web applications using the MERN stack (MongoDB, Express.js, React.js, Node.js).
                 </li>
                 <li className="relative pl-6">
                   <span className="absolute left-0 top-2.5 w-2 h-[2px] bg-[#3B82F6]/50 rounded-full" />
-                  Collaborating in Agile teams with designers and product managers.
+                  Collaborating with cross-functional teams to implement features, fix bugs, and improve application performance.
                 </li>
+              </ul>
+              
+            </div>
+          </motion.div>
+
+          {/* Timeline Item 2 */}
+          <motion.div 
+              initial={{ opacity: 0, x: -30 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              viewport={{ once: true, margin: "-100px" }}
+              transition={{ duration: 0.6, delay: 0.3 }}
+              className="relative pl-20 sm:pl-32"
+          >
+            {/* Dot Pattern */}
+            <div className="absolute left-[13px] top-6 w-[30px] h-[30px] bg-[#121212] rounded-full flex items-center justify-center">
+              <div className="w-3 h-3 rounded-full bg-[#06B6D4] shadow-[0_0_15px_#06B6D4]" />
+            </div>
+
+            {/* Content Card */}
+            <div className="group relative p-8 md:p-10 rounded-3xl border border-white/10 bg-white/5 backdrop-blur-md overflow-hidden transition-all duration-500 hover:bg-white/10">
+              
+              {/* Glowing Left Border Accent */}
+              <div className="absolute left-0 top-0 bottom-0 w-1 bg-gradient-to-b from-[#3B82F6] via-[#06B6D4] to-transparent opacity-50 group-hover:opacity-100 transition-opacity duration-500" />
+              
+              <div className="flex flex-col md:flex-row md:items-center justify-between gap-4 mb-8">
+                <div>
+                  <h4 className="text-2xl font-bold tracking-tight flex items-center gap-3">
+                    <Briefcase className="w-6 h-6 text-[#3B82F6]" />
+                    Front-End Web Development Internship
+                  </h4>
+                  <p className="text-[#06B6D4] mt-2 font-medium">IBM SkillsBuild (Hosted by CSRBOX Foundation)</p>
+                </div>
+                <div className="text-left md:text-right">
+                  <span className="inline-block px-4 py-1.5 rounded-full border border-white/10 bg-white/5 text-sm text-gray-300 font-mono">
+                    June 2024 — Aug 2024
+                  </span>
+                </div>
+              </div>
+
+              <ul className="space-y-4 text-gray-400 font-light leading-relaxed list-none">
                 <li className="relative pl-6">
                   <span className="absolute left-0 top-2.5 w-2 h-[2px] bg-[#3B82F6]/50 rounded-full" />
-                  Delivering performant, cross-browser-compatible, production-grade code.
+                  Built and deployed responsive web pages using HTML, CSS, JavaScript, and Git, improving user experience for learning modules.
                 </li>
               </ul>
               

@@ -25,10 +25,10 @@ export default function Overlay({ scrollYProgress }: { scrollYProgress: MotionVa
                 className="absolute text-center text-white"
             >
                 <h1 className="text-6xl md:text-8xl font-bold tracking-tighter">
-                    Ahammed Anas Nihal
+                    Himanshu Mourya
                 </h1>
                 <p className="text-xl md:text-3xl mt-4 text-white/70 font-light">
-                    Creative Software Developer.
+                    MERN Stack Developer.
                 </p>
             </motion.div>
 
@@ -38,11 +38,11 @@ export default function Overlay({ scrollYProgress }: { scrollYProgress: MotionVa
                 className="absolute left-8 md:left-24 lg:left-32 top-1/2 -translate-y-1/2 text-left text-white max-w-xl"
             >
                 <h2 className="text-5xl md:text-6xl font-semibold tracking-tight leading-tight mix-blend-screen">
-                    I build digital experiences.
+                    I build full-stack applications.
                 </h2>
                 <div className="h-[2px] w-24 bg-white/40 my-6" />
                 <p className="text-xl md:text-2xl text-white/70 font-light">
-                    Combining high performance and high-end design into unified, cohesive narratives.
+                    Focusing on responsive UIs, robust REST APIs, and seamless database integrations.
                 </p>
             </motion.div>
 
@@ -52,11 +52,11 @@ export default function Overlay({ scrollYProgress }: { scrollYProgress: MotionVa
                 className="absolute right-8 md:right-24 lg:right-32 top-1/2 -translate-y-1/2 text-right text-white max-w-xl"
             >
                 <h2 className="text-5xl md:text-6xl font-semibold tracking-tight leading-tight mix-blend-screen">
-                    Bridging design & engineering.
+                    Bringing data to life.
                 </h2>
                 <div className="h-[2px] w-24 bg-white/40 ml-auto my-6" />
                 <p className="text-xl md:text-2xl text-white/70 font-light">
-                    Crafting interactions that feel native, responsive, and tell compelling stories through motion.
+                    Leveraging machine learning insights and data-driven solutions in interactive applications.
                 </p>
             </motion.div>
         </div>

@@ -52,18 +52,18 @@ export default function AboutMe() {
           </h3>
           
           <h2 className="text-4xl md:text-5xl font-bold mb-8 tracking-tight">
-            Building intelligent systems that feel alive.
+            Building functional, responsive, and data-driven web applications.
           </h2>
           
           <div className="space-y-6 text-gray-400 text-lg md:text-xl font-light leading-relaxed">
             <p>
-              I&apos;m Anas — an aspiring AI Engineer and Full Stack Developer with a passion for building intelligent, production-ready applications.
+              I&apos;m Himanshu Mourya — a MERN Stack Developer skilled in building scalable, full-stack web applications with React.js, Node.js, Express.js, and MongoDB.
             </p>
             <p>
-              I specialize in LLMs, RAG pipelines, AI agents, and multi-agent systems, while also crafting clean, high-performance full-stack apps using React, Next.js, Django, and Node.js.
+              I have hands-on experience in creating responsive UI interfaces, building robust REST APIs, seamlessly integrating databases, and implementing machine learning models.
             </p>
             <p>
-              I&apos;m driven by the intersection of design, engineering, and intelligence — building things that don&apos;t just work, but feel alive.
+              I thrive on tackling complex technical challenges, actively collaborating with teams, and delivering performance-optimized solutions.
             </p>
           </div>
 
@@ -74,7 +74,7 @@ export default function AboutMe() {
                 className="flex items-center gap-2 px-5 py-2.5 rounded-full border border-white/10 bg-white/5 backdrop-blur-sm text-sm"
             >
               <MapPin className="w-4 h-4 text-[#3B82F6]" />
-              Kerala, India
+              Faridabad, Haryana
             </motion.div>
             
             <motion.div 
@@ -82,7 +82,7 @@ export default function AboutMe() {
                 className="flex items-center gap-2 px-5 py-2.5 rounded-full border border-white/10 bg-white/5 backdrop-blur-sm text-sm"
             >
               <GraduationCap className="w-4 h-4 text-[#06B6D4]" />
-              Pursuing Master&apos;s in Germany
+              B.Tech in Information Technology
             </motion.div>
           </div>
         </motion.div>

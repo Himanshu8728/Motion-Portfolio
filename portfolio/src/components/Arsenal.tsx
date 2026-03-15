@@ -2,36 +2,29 @@
 
 import { motion } from "framer-motion";
 import { 
-  SiPython, SiDjango, SiLangchain, SiOpenai, SiSupabase, 
-  SiPostgresql, SiMongodb, SiReact, SiNextdotjs, SiTailwindcss, 
-  SiTypescript, SiNodedotjs, SiExpress, SiPnpm, SiFramer
+  SiPython, SiJavascript, SiCplusplus, SiHtml5, SiCss, SiGit, SiGithub,
+  SiReact, SiNodedotjs, SiExpress, SiMongodb, SiMysql, SiSqlite, SiPostman 
 } from "react-icons/si";
-import { AiOutlineRobot } from "react-icons/ai"; // Custom placeholder for internal AI agents
-// Keeping generic icons or text for LangGraph, CrewAI, Antigravity if distinct icons aren't standard in Si
 
 export default function Arsenal() {
   const row1 = [
     { name: "Python", icon: <SiPython className="text-[#3776AB]" /> },
-    { name: "Django", icon: <SiDjango className="text-[#092E20]" /> },
-    { name: "LangChain", icon: <SiLangchain className="text-[#FFFF]" /> },
-    { name: "OpenAI API", icon: <SiOpenai className="text-[#412991]" /> },
-    { name: "Google Gemini", icon: <AiOutlineRobot className="text-[#8E75B2]" /> },
-    { name: "CrewAI", icon: <AiOutlineRobot className="text-white" /> },
-    { name: "LangGraph", icon: <AiOutlineRobot className="text-white" /> },
-    { name: "Antigravity", icon: <SparklesIcon className="text-cyan-400" /> },
+    { name: "JavaScript", icon: <SiJavascript className="text-[#F7DF1E]" /> },
+    { name: "C++", icon: <SiCplusplus className="text-[#00599C]" /> },
+    { name: "HTML", icon: <SiHtml5 className="text-[#E34F26]" /> },
+    { name: "CSS", icon: <SiCss className="text-[#1572B6]" /> },
+    { name: "Git", icon: <SiGit className="text-[#F05032]" /> },
+    { name: "GitHub", icon: <SiGithub className="text-white" /> },
   ];
 
   const row2 = [
     { name: "React.js", icon: <SiReact className="text-[#61DAFB]" /> },
-    { name: "Next.js", icon: <SiNextdotjs className="text-white" /> },
-    { name: "TypeScript", icon: <SiTypescript className="text-[#3178C6]" /> },
-    { name: "Tailwind CSS", icon: <SiTailwindcss className="text-[#06B6D4]" /> },
-    { name: "Framer Motion", icon: <SiFramer className="text-white" /> },
     { name: "Node.js", icon: <SiNodedotjs className="text-[#339933]" /> },
     { name: "Express", icon: <SiExpress className="text-white" /> },
-    { name: "Supabase", icon: <SiSupabase className="text-[#3ECF8E]" /> },
-    { name: "PostgreSQL", icon: <SiPostgresql className="text-[#4169E1]" /> },
     { name: "MongoDB", icon: <SiMongodb className="text-[#47A248]" /> },
+    { name: "MySQL", icon: <SiMysql className="text-[#4479A1]" /> },
+    { name: "SQLite", icon: <SiSqlite className="text-[#003B57]" /> },
+    { name: "Postman", icon: <SiPostman className="text-[#FF6C37]" /> },
   ];
 
   return (
